@@ -1,0 +1,24 @@
+---
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - jupyter
+  - xlrd
+  - seaborn
+  - bokeh
+  - folium
+  - scikit-learn
+  - sqlalchemy
+  - pymysql
+  - pip
+  - rpy2
+  - r-essentials
+  -
+    pip:
+      - RISE
+      - yellowbrick
+name: londonr-env
+prefix: envs/londonr-env
